@@ -331,12 +331,13 @@ Pacman.User = function (game, map) {
         initUser();
         resetPosition();
     };        
-    
+    var checkcondition =false;
     function keyDown(e) {
         if (typeof keyMap[e.keyCode] !== "undefined") { 
             due = keyMap[e.keyCode];
             e.preventDefault();
             e.stopPropagation();
+            checkcondition = true;
             return false;
         }
         return true;
@@ -387,8 +388,10 @@ Pacman.User = function (game, map) {
     };
 
     function move(ctx) {
-        
-        var npos        = null, 
+        if(checkcondition==true)
+        {
+            checkcondition = false;
+            var npos        = null, 
             nextWhole   = null, 
             oldPosition = position,
             block       = null;
@@ -450,6 +453,8 @@ Pacman.User = function (game, map) {
             "new" : position,
             "old" : oldPosition
         };
+        }
+        
     };
 
     function isMidSquare(x) { 
@@ -1256,15 +1261,3 @@ Object.prototype.clone = function () {
     }
     return newObj;
 };
-
-$(function(){
-  var el = document.getElementById("pacman");
-
-  if (Modernizr.canvas && Modernizr.localstorage && 
-      Modernizr.audio && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
-    window.setTimeout(function () { PACMAN.init(el, "https://raw.githubusercontent.com/daleharvey/pacman/master/"); }, 0);
-  } else { 
-    el.innerHTML = "Sorry, needs a decent browser<br /><small>" + 
-      "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
-  }
-});
