@@ -9,4 +9,4 @@ StdID | Name
 
 
 ## Description ## 
-This repository contains assignments and project submitted to AI course offered in Spring 2021 at PafKiet
+This repository contains assignments and the final project submitted to AI course offered in Spring 2021 at PafKiet
