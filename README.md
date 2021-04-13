@@ -1,4 +1,4 @@
-# AI 394 SPRING 2021#
+# AI 394 SPRING 2021 #
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
