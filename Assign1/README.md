@@ -1,4 +1,4 @@
-# DM 109 FALL 2020: Assignment 1 #
+# AI 394 SPRING 2021: Assignment 1 #
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
