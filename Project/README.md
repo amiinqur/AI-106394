@@ -1,4 +1,4 @@
-# AI 394 SPRING 2021: Course Repository #
+# AI 394 SPRING 2021: Project #
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
