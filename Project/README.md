@@ -11,3 +11,4 @@ StdID | Name
 ## Description ## 
 This repository contains assignments and the final project submitted to AI Course offered in Spring 2021 at PafKiet
 
+![alt text](https://github.com/amiinqur/Ai394/Project/BEST SCORE.PNG?raw=true)
