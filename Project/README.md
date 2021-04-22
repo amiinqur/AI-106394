@@ -12,4 +12,5 @@ StdID | Name
 This repository contains assignments and the final project submitted to AI Course offered in Spring 2021 at PafKiet
 
 ## Highest Kaggle Score ##
-![Highscore](https://user-images.githubusercontent.com/66859283/115722779-c1665e00-a398-11eb-9e29-797d6772e9f4.png)
+![Highscore](https://user-images.githubusercontent.com/66859283/115763848-4fa10b00-a3be-11eb-809f-fb0acd301af4.png)
+
