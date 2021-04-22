@@ -1,4 +1,4 @@
-#multinomialNB Code with 3 convolution which produces the best accuracy score 
+#multinomialNB Code with 3 convolution 
 import numpy as np
 import sklearn as sk
 import pandas as pd
