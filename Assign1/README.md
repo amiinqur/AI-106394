@@ -9,7 +9,7 @@ StdID | Name
 
 
 ## Short Description ## 
-Firstly, we downloaded all the required files from Kaggle. Then we split the collected data for cross-validation. We gathered the algorithms that we wanted to apply from Scikit and applied the algorithm on our data file. We kept cross validating and applying the data on different algorithms until we got the desired accuracy and results. Afterwards, we ran our program on test.csv that we downloaded from Kaggle and submitted the results on Kaggle. 
+Firstly, we downloaded all the required files from Kaggle. Then we split the collected data for cross-validation. We gathered the algorithms that we wanted to apply from Scikit and applied the algorithm on our data file. We kept cross validating and applying the data on different algorithms until we got the desired accuracy and results. Afterwards, we ran our program on Test.csv that we downloaded from Kaggle and submitted the results on Kaggle. 
 
 ## Insights Gained ##  
 
