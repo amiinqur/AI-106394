@@ -5,7 +5,7 @@ StdID | Name
 **63855** | **Amin M. Quraishi** <!--this is the group leader in bold-->
 63910 | Muhammad Ashar
 63927 | Abdullah Afaque
-<!-- Replace name and student ids with acutally group member names and ids-->
+<!-- Replace name and student ids with acutally group member Names and Ids-->
 
 
 ## Description ## 
