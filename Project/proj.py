@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
 
-#5x5
+#5x5 filter
 
 def convolve2D(image, filter):
   fX, fY = filter.shape 
@@ -64,7 +64,7 @@ print(sX.shape)
 
 
 
-#7x7
+#7x7 filter
 
 def convolve2D(image, filter):
   fX, fY = filter.shape
@@ -335,7 +335,8 @@ with open("KNN.csv", 'w') as g:
     g.write("ImageId,Label\n")
     for id, cat in out:
         g.write(str(id + 1) + "," + str(cat) + "\n")
-#9X9
+
+#9X9 filter
 
 
 
